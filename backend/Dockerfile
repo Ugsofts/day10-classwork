@@ -8,7 +8,7 @@ COPY pom.xml .
 
 COPY src ./src
 
-RUN mvn clear package -DskipTests
+RUN mvn clean package -DskipTests
 
 # stage 2: run the build with eclipse
 
